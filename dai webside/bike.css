@@ -1,0 +1,93 @@
+body{
+    background-image:url(photo-1563990308267-cd6d3cc09318.avif) ;
+}
+.header{
+    border: 0.5px solid black;
+    border-radius: 20px;
+    height: 125px;
+    background-color: rgb(109, 96, 96);
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.tittel{
+    font-size: 30px;
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    gap: 40px;
+    font-weight: 500;
+}
+.preactice{
+    list-style: none;
+}
+.list-item li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    }
+    .list-item li a:hover{
+    color: blue;
+    }
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+.form-container{
+    width: 350px;
+    height: 300px;
+    /* background-color: #94aa9d; */
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+        
+.lamo{
+    margin: 10px 0 30px 0 ;
+    font-size: 15px;
+    font-weight: 800;
+}
+.login{
+    text-align: center;
+    margin: 10px 0 30px 0 ;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(146, 125, 125);
+}
+.btn-login-btn{
+    border-radius:10px;
+    box-sizing: border-box;
+    color: rgb(233, 218, 218);
+    background-color: rgb(15, 114, 11);
+    padding: 10px 15px;
+    width: 108%;
+    height: 50px;
+           
+}
+#date{
+    padding: 10px;
+    width: 100%;
+}
+#name{
+    width: 100%;
+    padding: 10px;
+}
+#email{
+    width: 100%;
+    padding: 10px;
+}
+.submit{
+    font-size: 25px;
+          
+}
+#number{
+    width: 100%;
+    padding: 10px;  
+}

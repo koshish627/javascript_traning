@@ -1,0 +1,58 @@
+.first-header{
+   padding:400px 400px 400px 400px ;
+   margin: 400px;
+}
+body{
+   background-color: blue;
+}
+.second-header{
+   /* display: flex; */
+   /* justify-content: center;
+   align-items: center; */
+border: 1px solid black;
+height: 400px;
+width: 400px;
+justify-content: center;
+align-items: center;
+}
+.login-1{
+   display: flex ;
+   justify-content: center;
+
+}
+#email{
+   height: 15px;
+   width: 15px;
+   font-size: 40px;
+   padding: 10px 20px ;
+}
+#password{
+   font-size: 40px;
+   padding: 10px 20px;
+}
+button{
+   border: 1px solid black;
+   height: 45px;
+   width:350px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 23px;
+   
+}
+.login-2{
+   font-size: 20px;
+   padding: 10px 20px ;
+  
+}
+.login-2:hover{
+ background-color: aqua;
+ color: brown;
+}
+.dont-4-text{
+   justify-content: center;
+   display: flex;
+   font-size: 25px;
+}
+
